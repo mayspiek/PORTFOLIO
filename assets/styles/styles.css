@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap");
+body::-webkit-scrollbar {
+  width: .7rem;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(3, 7, 28, 0.322);
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #03071c;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 1px solid rgba(22, 29, 61, 0.808);
+  /* creates padding around scroll thumb */
+}
+
+a,
+button {
+  text-decoration: none;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #6a0c2b;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 80%;
+  margin: 70px auto 70px auto;
+  background: linear-gradient(163.54deg, rgba(255, 254, 254, 0.18) 2.11%, rgba(255, 255, 255, 0.06) 100.29%);
+  -webkit-box-shadow: 20px 22px 30px rgba(0, 0, 0, 0.35);
+          box-shadow: 20px 22px 30px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+}
+
+h1,
+h3 {
+  font-family: 'Dela Gothic One';
+  color: #e6af2d;
+}
+
+h3 {
+  font-size: 42px;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 90px;
+  margin-top: 10px;
+}
+
+header p {
+  font-family: 'Dela Gothic One';
+  color: white;
+}
+
+header nav a {
+  font-family: 'Roboto Mono';
+  color: white;
+  padding: 20px;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+header nav a:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: inset 2px 2px 2px 1px rgba(3, 7, 28, 0.2);
+          box-shadow: inset 2px 2px 2px 1px rgba(3, 7, 28, 0.2);
+}
+
+.hr-header {
+  display: block;
+  width: 85%;
+  height: 5px;
+  margin: 0 auto;
+  background: rgba(3, 7, 30, 0.1);
+  border: 0.5px solid rgba(3, 7, 30, 0.2);
+  -webkit-box-shadow: inset 1.5px 1.5px 4px rgba(3, 7, 30, 0.7);
+          box-shadow: inset 1.5px 1.5px 4px rgba(3, 7, 30, 0.7);
+}
+
+hr {
+  display: block;
+  width: 60%;
+  height: 5px;
+  margin: 45px auto;
+  background: rgba(3, 7, 30, 0.1);
+  border: 0.5px solid rgba(3, 7, 30, 0.2);
+  -webkit-box-shadow: inset 1.5px 1.5px 4px rgba(3, 7, 30, 0.7);
+          box-shadow: inset 1.5px 1.5px 4px rgba(3, 7, 30, 0.7);
+}
+
+.content-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
+}
+
+main {
+  padding: 50px 90px 0 90px;
+}
+
+main img {
+  width: 60%;
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
+}
+
+main h1 {
+  color: #e6af2d;
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 70px;
+}
+
+main .about {
+  font-family: 'Roboto Mono';
+  color: white;
+  z-index: 100;
+}
+
+#skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#skills img {
+  width: 120px;
+  height: 120px;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+#skills img:hover {
+  -webkit-filter: greyscale(100%);
+          filter: greyscale(100%);
+}
+
+#skills .skills-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#skills .skills-icons div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#skills .skills-icons div p {
+  color: white;
+  font-family: 'Roboto Mono';
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#skills .skills-icons div:hover {
+  color: #e6af2d;
+  background-color: rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: inset 2px 2px 2px 1px rgba(3, 7, 28, 0.2);
+          box-shadow: inset 2px 2px 2px 1px rgba(3, 7, 28, 0.2);
+}
+
+#projetos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#projetos .banner-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#projetos .banner-wrapper .banner {
+  position: relative;
+  width: 290px;
+  height: 180px;
+  margin: 20px 15px;
+  background: #03071c;
+  -webkit-box-shadow: 4px 4px 10px rgba(3, 7, 30, 0.3);
+          box-shadow: 4px 4px 10px rgba(3, 7, 30, 0.3);
+  border-radius: 50px;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+#projetos .banner-wrapper .banner:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+#projetos .banner-wrapper .banner span {
+  width: 100%;
+  height: 30%;
+  top: 35%;
+  position: absolute;
+  background-color: #e6af2d;
+  -webkit-box-shadow: inset -4px -4px 9px rgba(3, 7, 30, 0.35), inset 4px 4px 9px rgba(3, 7, 30, 0.35);
+          box-shadow: inset -4px -4px 9px rgba(3, 7, 30, 0.35), inset 4px 4px 9px rgba(3, 7, 30, 0.35);
+}
+
+#projetos .banner-wrapper .banner span p {
+  font-family: 'Roboto Mono';
+  font-size: 32px;
+  font-weight: 300;
+  color: #6a0c2b;
+  -webkit-transform: translateY(-60%);
+          transform: translateY(-60%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contato {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contato p {
+  font-family: 'Roboto Mono';
+  color: white;
+  font-size: 1rem;
+  margin: .625rem 0;
+}
+
+.contato button {
+  background: #6a0c2b;
+  padding: .938rem 2.5rem;
+  border-radius: 3rem;
+  border: none;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  margin: 1.25rem;
+}
+
+.contato button a {
+  font-family: 'Roboto Mono';
+  color: white;
+  font-size: 1rem;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.contato button:hover a {
+  color: #e6af2d;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: .75rem;
+  color: white;
+  margin: 9.375rem 0 2rem 0;
+}
+
+footer p {
+  margin: 0;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=styles.css.map */

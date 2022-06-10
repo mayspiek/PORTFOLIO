@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap');
+
+$deep-blue: hsl(231, 82%, 6%);
+$dark-sienna:hsl(340, 80%, 23%);
+$gold: hsl(42, 79%, 54%);
+$white: hsl(0, 0%, 100%);
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
