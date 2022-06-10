@@ -32,6 +32,9 @@ html {
   background-color: #6a0c2b;
   padding: 0;
   margin: 0;
+  background-image: url(/assets/imagens/background-elipse.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
