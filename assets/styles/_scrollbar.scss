@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: hsl(230, 81%, 6%);    /* color of the scroll thumb */
+    background-color: hsla(233, 35%, 13%, 0.247);    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 1px solid rgba(22, 29, 61, 0.808);  /* creates padding around scroll thumb */
+    border: 1px solid rgba(255, 255, 255, 0.397);  /* creates padding around scroll thumb */
   }

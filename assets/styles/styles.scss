@@ -19,7 +19,7 @@ html {
 body {
 
     width: 80%;
-    margin: 70px auto 70px auto;
+    margin: 50px auto 50px auto;
 
     background: linear-gradient(163.54deg,
             rgba(255, 254, 254, 0.18) 2.11%,
@@ -40,7 +40,7 @@ h3 {
 }
 
 h3 {
-    font-size: 42px;
+    font-size: 1.5rem;
     margin: 0;
 }
 
@@ -52,16 +52,18 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 90px;
-    margin-top: 10px;
+    padding: 15px 90px 10px 90px;
+    // margin-top: 10px;
 
     p {
         font-family: 'Dela Gothic One';
         color: $white;
+        font-size: 1rem;
     }
 
     nav a {
         font-family: 'Roboto Mono';
+        font-size: .75rem;
         color: $white;
         padding: 20px;
         transition: all 500ms ease-in-out;
@@ -105,18 +107,18 @@ hr {
 
 main {
 
-    padding: 50px 90px 0 90px;
+    padding: 20px 90px 0 90px;
 
     img {
-        width: 60%;
+        width: 50%;
         transform: translateX(-40px);
     }
 
     h1 {
         color: $gold;
-        font-size: 48px;
+        font-size: 2.5rem;
         line-height: 120%;
-        margin-bottom: 70px;
+        margin-bottom: 30px;
 
     }
 
@@ -125,6 +127,13 @@ main {
         color: white;
         z-index: 100;
 
+        h2 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+
     }
 }
 
@@ -132,8 +141,8 @@ main {
     @include flexCenter(column);
 
     img {
-        width: 120px;
-        height: 120px;
+        width: 80px;
+        height: 80px;
         filter: grayscale(0%);
         transition: all 500ms ease;
 
@@ -174,8 +183,8 @@ main {
 
         .banner {
             position: relative;
-            width: 290px;
-            height: 180px;
+            width: 280px;
+            height: 170px;
             margin: 20px 15px;
             background: $deep-blue;
             box-shadow: 4px 4px 10px rgba(3, 7, 30, 0.3);
@@ -245,7 +254,7 @@ main {
 footer {
     @include flexCenter(column);
 
-    font-size: .75rem;
+    font-size: .65rem;
     color: white;
     
     margin: 9.375rem 0 2rem 0;
